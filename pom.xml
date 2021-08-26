@@ -20,8 +20,6 @@
         <module>gmall-common</module>
         <module>gmall-cart</module>
         <module>gmall-search</module>
-        <module>renren-fast</module>
-        <module>gmall-admin</module>
     </modules>
 
 <!--    统一管理jar包-->
