@@ -1,0 +1,14 @@
+server:
+  port: 10001
+spring:
+  application:
+    name: gmall-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.141.60.249:8848
+  datasource:
+    url: jdbc:mysql://8.141.60.249:3306/gmall_pms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
