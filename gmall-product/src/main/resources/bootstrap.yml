@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 8.141.60.249:8848
