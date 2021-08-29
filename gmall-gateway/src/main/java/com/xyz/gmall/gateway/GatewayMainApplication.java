@@ -2,6 +2,9 @@ package com.xyz.gmall.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description:
  */
 @SpringBootApplication
+@EnableDiscoveryClient
+@RefreshScope
 public class GatewayMainApplication {
     public static void main(String[] args) {
         SpringApplication.run(GatewayMainApplication.class,args);

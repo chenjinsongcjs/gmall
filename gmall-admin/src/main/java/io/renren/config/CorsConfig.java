@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@Configuration
+//@Configuration //在网关配置了跨域，这里不能再配了，多个跨域配置会冲突
 public class CorsConfig implements WebMvcConfigurer {
 
     @Override

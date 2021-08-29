@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: gmall-cart
+# 注册中心配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.141.60.249:8848

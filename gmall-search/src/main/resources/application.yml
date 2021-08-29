@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: gmall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.141.60.249:8848

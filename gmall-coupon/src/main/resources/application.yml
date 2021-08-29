@@ -3,3 +3,12 @@ server:
 spring:
   application:
     name: gmall-coupon
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.141.60.249:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.141.60.249:3306/gmall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
